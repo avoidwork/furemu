@@ -1,0 +1,36 @@
+@media only screen and (max-width: 480px) {
+	body {
+		max-width: 90% !important;
+	}
+
+	nav {
+		display: block !important;
+		position: relative !important;
+	}
+
+	nav ul li {
+		display: block !important;
+		margin: 1em 0 1em 0 !important;
+	}
+
+	nav ul li:first-child {
+		display: block !important;
+		margin: 0 0 1em 0 !important;
+	}
+
+	nav ul li:last-child {
+		display: block !important;
+		margin: 1em 0 0 0 !important;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	body {
+		max-width: 80% !important;
+	}
+
+	nav {
+		display: block !important;
+		position: relative !important;
+	}
+}
